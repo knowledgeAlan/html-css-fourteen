@@ -1,0 +1,66 @@
+{
+    "sourceFile": "position.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1711101708727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711101775806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n <!DOCTYPE html>\n <html>\n-    \n+    <head>\n+        <title>Position Practice</title> \n+\n+    </head>\n+\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711101820717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,14 @@\n         <title>Position Practice</title> \n \n     </head>\n \n+\n+    <body style=\"\n+        height: 300px;\n+        padding-top: 60px;\n+        padding-left: 60px;\n+    \">\n+\n+    </body>\n+\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711101892227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,21 @@\n         padding-top: 60px;\n         padding-left: 60px;\n     \">\n \n+    <div style=\"\n+            background-color: black;\n+            color: white;\n+            position: fixed;\n+            top: 0;\n+            left: 0;\n+            right: 0;\n+            height: 50px;\n+    \">\n+    header \n+    </div>\n+\n+    \n+\n     </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711101979712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,16 @@\n     \">\n     header \n     </div>\n \n-    \n \n+    <div style=\"\n+        background-color: green;\n+        color: white;\n+        position: fixed;\n+    \">\n+\n+    </div>\n+\n     </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711102015065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,12 @@\n     <div style=\"\n         background-color: green;\n         color: white;\n         position: fixed;\n+        left: 0 ;\n+        bottom: 0;\n+        top: 50px;\n+        width: 72px;\n     \">\n \n     </div>\n \n"
+                },
+                {
+                    "date": 1711102022657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n         top: 50px;\n         width: 72px;\n     \">\n \n+    siderbar\n     </div>\n \n     </body>\n \n"
+                },
+                {
+                    "date": 1711102102641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,7 +37,16 @@\n \n     siderbar\n     </div>\n \n+\n+    <div style=\"\n+        background-color: lightblue;\n+        height: 200px;\n+        width: 200px;\n+        position: static;\n+    \">\n+\n+    </div>\n     </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711102107698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         height: 200px;\n         width: 200px;\n         position: static;\n     \">\n-\n+    div 1\n     </div>\n     </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711102209042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,19 @@\n         height: 200px;\n         width: 200px;\n         position: static;\n     \">\n-    div 1\n+    div 1s\n     </div>\n+\n+\n+    <div style=\"\n+        background-color: lightpink;\n+        height: 200px;\n+        width: 200px;\n+    \">\n+\n+    div 2\n+    </div>\n     </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711102220250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         height: 200px;\n         width: 200px;\n         position: static;\n     \">\n-    div 1s\n+    div 1\n     </div>\n \n \n     <div style=\"\n"
+                },
+                {
+                    "date": 1711102500944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \n \n     <body style=\"\n         height: 300px;\n-        padding-top: 60px;\n+        /* padding-top: 60px; */\n         padding-left: 60px;\n     \">\n \n     <div style=\"\n"
+                },
+                {
+                    "date": 1711102507156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,62 @@\n+<!DOCTYPE html>\n+<html>\n+    <head>\n+        <title>Position Practice</title> \n+\n+    </head>\n+\n+\n+    <body style=\"\n+        height: 300px;\n+        padding-top: 60px;\n+        padding-left: 60px;\n+    \">\n+\n+    <div style=\"\n+            background-color: black;\n+            color: white;\n+            position: fixed;\n+            top: 0;\n+            left: 0;\n+            right: 0;\n+            height: 50px;\n+    \">\n+    header \n+    </div>\n+\n+\n+    <div style=\"\n+        background-color: green;\n+        color: white;\n+        position: fixed;\n+        left: 0 ;\n+        bottom: 0;\n+        top: 50px;\n+        width: 72px;\n+    \">\n+\n+    siderbar\n+    </div>\n+\n+\n+    <div style=\"\n+        background-color: lightblue;\n+        height: 200px;\n+        width: 200px;\n+        position: static;\n+    \">\n+    div 1\n+    </div>\n+\n+\n+    <div style=\"\n+        background-color: lightpink;\n+        height: 200px;\n+        width: 200px;\n+    \">\n+\n+    div 2\n+    </div>\n+    </body>\n+\n+</html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1711101708727,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html>\n    \n</html>"
+        }
+    ]
+}
