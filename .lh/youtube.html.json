@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1711103251934,
@@ -12,6 +12,10 @@
                 {
                     "date": 1711103320949,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,10 @@\n     <link rel=\"stylesheet\" href=\"styles/general.css\">\n     <link rel=\"stylesheet\" href=\"styles/header.css\">\n     <link rel=\"stylesheet\" href=\"styles/video.css\">\n     <link rel=\"stylesheet\" href=\"styles/sidebar.css\">\n-    \n \n+\n     <body>\n \n \n         <div class=\"header\">\n@@ -48,8 +48,12 @@\n             </div>\n \n         </div>\n \n+        <div class=\"sidebar\">\n+            sidebar\n+        </div>\n+\n         <div class=\"video-grid\">\n \n             <div class=\"video-preview\">\n                 \n"
+                },
+                {
+                    "date": 1712571083316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n                         <img class=\"thumbnail\" src=\"thumbnails/thumbnail-2.webp\">\n \n                     </div>\n \n-                    <div class=\"=video-info-grid\">\n+                    <div class=\"video-info-grid\">\n                         <div class=\"channel-picture\">\n                             <img class=\"profile-picture\" src=\"channel-pictures/channel-2.jpeg\">\n                         </div>\n \n"
                 }
             ],
             "date": 1711103251934,
